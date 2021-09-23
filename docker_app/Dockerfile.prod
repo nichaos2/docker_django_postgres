@@ -44,6 +44,7 @@ RUN addgroup -S docker_app && adduser -S docker_app -G docker_app
 ENV HOME=/home/docker_app
 ENV APP_HOME=/home/docker_app/web
 RUN mkdir $APP_HOME
+RUN mkdir $APP_HOME/staticfiles
 WORKDIR $APP_HOME
 
 # install dependencies
