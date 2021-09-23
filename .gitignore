@@ -7,3 +7,7 @@ env/
 #Production
 .env.prod
 .env.prod.db
+
+
+# Files from outside
+mediafiles/

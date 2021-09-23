@@ -60,5 +60,5 @@ The rights of the new app created will be assigned to the root, and therefor you
 Use the command
 
 ```shell
-sudo chown -R username:groupname *
+sudo chown -R username:groupname appname
 ```
