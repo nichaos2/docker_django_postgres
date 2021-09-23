@@ -1,3 +1,9 @@
+# virtual environment
 env/
 
+#
 *pycache*
+
+#Production
+.env.prod
+.env.prod.db
