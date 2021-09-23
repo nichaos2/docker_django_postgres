@@ -51,3 +51,14 @@ docker-compose -f docker-compose.prod.yml up -d --build
 ```
 
 Remember to take down the image before with docker-compose -f docker-compose.yml or docker-compose.prod.yml down -v
+
+Develop Further
+---------------
+
+To add a new app do it in terminal web of the Docker Desktop
+The rights of the new app created will be assigned to the root, and therefor you would need to change the rights.
+Use the command
+
+```shell
+sudo chown -R username:groupname *
+```
